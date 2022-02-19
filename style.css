@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+html body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    background-color: black ;
+    display: flex;
+    flex-direction: row
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+}
+
+
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.logo {
+    border-right: 2px solid white;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.sign {
+    border-right: 2px solid white;
+    padding: 15px 0px;
+    padding-left: 25px;
+    padding-right: 90px;
+}
+
+.navegacion__link {
+    border-right: 2px solid white;
+    padding: 0px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.navegacion__link:hover {
+    color: grey;
+}
+
+
+.principal {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.principal__left {
+    border: 3px solid red;
+    margin: 10px;
+    position: relative;
+    width: 50%;
+}
+
+.principal__right {
+    border: 3px solid red;
+    margin: 10px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.text {
+    position: relative;
+    z-index: 8;
+    text-transform: none;
+}
+
+.article {
+    width: 70%;
+    height: 50%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.right__notice {
+    border: 2px solid red;
+}
+
+.others {
+    border: 2px solid red;
+    margin: 10px;
+}
+
+.subtitle {
+    color: gray;
+}
+
+.notice {
+    border: 2px solid red;
+}
+
+.notice__img {
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: row;
+}
