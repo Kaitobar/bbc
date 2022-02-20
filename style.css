@@ -10,109 +10,237 @@ html body {
 
 
 header {
-    background-color: black ;
+    background-color: #000 ;
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    font-weight: 500;
+    width: 100%;
+    margin: auto;
+    padding: 0px;
 }
 
 
 .navegacion {
     display: flex;
     flex-direction: row;
-    margin: 15px;
+    margin: 0px 15px;
+    justify-content: center;
 }
 
 .logo {
-    border-right: 2px solid white;
-    background-color: white;
     height: 30px;
-    width: 100px;
-    margin-top: 10px;
+    margin: 0px 10px;
+    margin-top: 5px;
+    display: flex;
+    align-content: center;
+    padding: 0px 20px;
+    margin-left: 50px;
+    justify-content: center;
 }
 
 .sign {
-    border-right: 2px solid white;
-    padding: 15px 0px;
-    padding-left: 25px;
-    padding-right: 90px;
+    border-left: 1px solid gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    padding-left: 20px;
+
 }
 
 .navegacion__link {
-    border-right: 2px solid white;
-    padding: 0px 25px;
+    display: flex;
+    border-right: 1px solid gray;
+    font-size: 13px;
+    padding: 12px 20px;
     text-decoration: none;
     color: white;
+    align-items: center;
+    order: 1;
+    position: relative;
 }
+
+
+.select {
+    background-color: #000;
+    color: white;
+    padding: 0px 30px;
+}
+
+.search {
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 20px;
+}
+
 
 .navegacion__link:hover {
     color: grey;
 }
 
 
+/** 1 HALF OF PAGE */
+
 .principal {
     display: flex;
     flex-direction: row;
+    padding: 0px 50px;
+}
+
+.subtitle__title {
+    padding: 0px 50px;
+    margin: 0px 15px;
+    margin-top: 30px;
+    color: rgb(66, 66, 66);
 }
 
 
 .principal__left {
-    border: 3px solid red;
-    margin: 10px;
-    position: relative;
+    display: flex;
+    align-items: flex-end;
+    background-image: url(https://geekflare.com/wp-content/uploads/2021/09/520401-pure-black-background-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #333;
     width: 50%;
+    height: 400px;
+    background-size: cover;
+    margin: 10px;
+    border: 5px solid white;
 }
 
 .principal__right {
-    border: 3px solid red;
     margin: 10px;
     width: 50%;
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-.text {
-    position: relative;
-    z-index: 8;
-    text-transform: none;
-}
+
 
 .article {
-    width: 70%;
-    height: 50%;
-    margin-top: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.left__text {
+    padding: 0px 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 70%;
     position: relative;
 }
 
 .right__notice {
-    border: 2px solid red;
+    background-image: url(https://geekflare.com/wp-content/uploads/2021/09/520401-pure-black-background-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    border: 5px solid white;
+    font-size: 70%;
 }
 
+.notice__text {
+    margin: 100px;
+}
+
+/* SECOND HALF OF PAGE */
+
 .others {
-    border: 2px solid red;
-    margin: 10px;
+    margin: 50px 10px;
+    padding: 0px 50px;
+    
 }
 
 .subtitle {
-    color: gray;
+    color: rgb(66, 66, 66);
+    padding-left: 5px;
+    border-left: 4px solid red;
+    margin-left: 5px;
 }
 
 .notice {
-    border: 2px solid red;
+    color: rgb(37, 37, 37);
+    padding: 5px;
+}
+
+.notice__new {
+    margin: 0px 50px;
 }
 
 .notice__img {
-    height: 250px;
-    width: 350px;
-    overflow: hidden;
+    width: 100%;
+    height: 70%;
+    background-size: cover;
 }
 
+.notice__text {
+    padding: 5px;
+    margin: 0px;
+}
 .cajas {
     display: flex;
     flex-direction: row;
+    margin-bottom: 20px;
+}
+
+span {
+    font-size: 13px;
+    margin: 5px;
+}
+
+/* 3 HALF OF PAGE */
+
+.reel {
+    margin-top: 30px;
+    padding: 0px 70px;
+    background-color: antiquewhite;
+}
+
+.reel__info {
+    margin: 15px 0px;
+    padding: 15px;
+}
+
+.info__title {
+    font-size: 40px;
+    margin: 10px 0px;
+}
+
+.reel__notice {
+    color: rgb(37, 37, 37);
+    padding: 5px;
+}
+.info__para{
+    margin: 0px;
+}
+
+.reel__cajas {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.caja__text {
+    background-color: white;
+    padding: 15px 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
